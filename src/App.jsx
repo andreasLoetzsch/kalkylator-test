@@ -1,12 +1,15 @@
-import { Calcultaor } from "./components/Calculator"
+import { Calcultaor } from "./components/Calculator";
+import { AddMovie } from "./components/AddMovie";
+import { MovieList } from "./components/MovieList";
 
 function App() {
-
   return (
     <>
-    <Calcultaor/>
-      </>
-  )
+      <Calcultaor />
+      <AddMovie />
+      <MovieList />
+    </>
+  );
 }
 
-export default App
+export default App;
